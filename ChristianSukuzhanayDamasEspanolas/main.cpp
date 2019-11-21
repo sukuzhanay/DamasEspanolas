@@ -14,19 +14,16 @@ int turno(int matrix[][COLUMNAS], int jugador,int filaOrigen,int colOrigen,int f
 char simbolos(int i);//Me ayuda a rellenar mi matrix, convierte los numeros en simbolos
 void tablero(int matrix[FILAS][COLUMNAS]);//Dibuja el tablero
 
-
-int intro()// Funcion que pinta y colorea a la Universidad Europea
-{
+int intro(){
     int op=0;
     do{
-       
        do{
             system("clear");
             cout<<"\t\t_____________________________________________________________________"<<endl;
             cout<<"\t\t                                                                    "<<endl;
             cout<<"\t\t UNIVERSIDAD EUROPEA - ESCUELA DE ARQUITECTURA, INGENIERIA Y DISEÑO"<<endl;
             cout<<"\t\t_____________________________________________________________________"<<endl<<endl;
-            cout<<"\t\tProf.Javier Sanchez S.                  Alumno: Christian Sukuzhanay"<<endl<<endl<<endl;
+            cout<<"\t\tProf.:Christian Sucuzhanay.                  Alumno : XXXXXXXXXXX"<<endl<<endl<<endl;
             cout<<"\t\t              << JUEGO DE LAS DAMAS ESPANOLAS >>"<<endl<<endl;
             cout<<"\t\t\t    ** SelepintarColione una opción del menu [ 0-9] **"<<endl<<endl;
             cout<<"\t\t\t\t  [ 1 ] Ver reglas del juego "<<endl;
@@ -160,7 +157,7 @@ void tablero(int matrix[FILAS][COLUMNAS])//Pinta tablero
     cout<<"\t\t                                                                    "<<endl;
     cout<<"\t\t UNIVERSIDAD EUROPEA - ESCUELA DE ARQUITECTURA, INGENIERIA Y DISEÑO"<<endl;
     cout<<"\t\t_____________________________________________________________________"<<endl<<endl;
-    cout<<"\t\tProf.Javier Sanchez S.                  Alumno: Christian Sukuzhanay"<<endl<<endl<<endl;
+    cout<<"\t\tProf.: Christian Sucuzhanay                  Alumno: XXXXXXXXXXXXX"<<endl<<endl<<endl;
     cout<<"\t\t                << TABLERO DE LAS DAMAS ESPANOLAS >>"<<endl<<endl;
     cout<<"\n\t\t\t\t     B = fichas BLANCAS";
     cout<<"\n\t\t\t\t     N = fichas NEGRAS";
